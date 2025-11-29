@@ -14,7 +14,11 @@
 
     "ServerScriptService": {
       "Server": {
-        "$path": "src/server"
+        "$path": "src/server",
+
+        "projects": {
+          "$path": "src/server/projects"
+        }
       },
       "ServerPackages": {
         "$path": "ServerPackages"
@@ -30,12 +34,9 @@
     },
 
     "Workspace": {
-      "$path": "src/workspace",
-
       "$properties": {
         "FilteringEnabled": true
       },
-
       "Baseplate": {
         "$className": "Part",
         "$properties": {
